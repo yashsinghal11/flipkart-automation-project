@@ -1,34 +1,21 @@
-# Flipkart Playwright POM Starter
+# Flipkart QA Automation Project
 
-This is the starter framework for our Flipkart automation project.
+UI automation testing project for Flipkart using **Playwright, TypeScript, and Page Object Model (POM)**.
 
-## Structure
+## Project Overview
+
+This project automates a Flipkart user flow:
+
+1. Open Flipkart
+2. Click Login
+3. Enter mobile number
+4. Click Continue
+5. Enter OTP manually
+6. Click Verify after OTP is entered
+7. Search for `macbook laptop`
+8. Verify the first search result title
+
+### Expected Product
 
 ```text
-flipkart-pom-starter/
-│
-├── pages/
-│   └── Page Object classes will go here
-│
-├── tests/
-│   └── Test specifications will go here
-│
-├── utils/
-│   └── Reusable helper classes/functions
-│
-├── test-data/
-│   └── Test data
-│
-├── fixtures/
-│   └── Custom Playwright fixtures
-│
-├── reports/
-│   └── Playwright HTML reports
-│
-├── playwright.config.ts
-├── package.json
-├── tsconfig.json
-└── .gitignore
-```
-
-We will add page classes and test cases only after defining the application pages and test scenarios.
+Apple MacBook Air (M5, 2026) M5 - (16 GB/512 GB SSD/Tahoe) MDHE4HN/A
